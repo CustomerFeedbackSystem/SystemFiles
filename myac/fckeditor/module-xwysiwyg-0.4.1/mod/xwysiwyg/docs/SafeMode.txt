@@ -1,0 +1,42 @@
+Deutsch:
+--------
+Diese Modul hat einige Probleme mit dem PHP-SafeMode.
+Um das xwysiwyg-Modul trotzdem nutzen zu koenne, sind folgende Schritte notwendig.
+
+-Vor der Installtion mit Boost, sollten Sie die Verzeichnisse:
+  files/xwysiwyg    und
+  files/xwysiwyg/editors
+ erstellen, und genuegend Rechte erteilen (777 kann notwendig sein)
+
+-Nutzen Sie NICHT die Direkt-Installieren Funktion im XW-Manager.
+-Dowloaden Sie den/die gewuenschten Editor(en), entpacken sie lokal und laden die Dateien gemaes den Instruktionen im enthaltenen Readme.txt mit Ihrem FTP-Programm auf den Server.
+-Das Ziel ist files/xwysiwyg/editors/
+-Starten Sie dann erst die Installtions-Routine im XW-Manager.
+
+-Nutzen Sie NICHT die Entfernen-Funktion im XW-Manager. Sie wuerden seitenweise Fehlermeldungen erhalten.
+-Loeschen Sie bei Bedarf die Dateien mit Ihrem FTP-Programm.
+-Gleiches passiert auch beim Deinstallieren des Moduls mit Boost.
+-Loeschen Sie vorher mit FTP die Editor-Dateien in files/xwysiwyg/ , um die Fehlermeldungen in Grenzen zu halten.
+
+English:
+--------
+This module has some problems installing and removing editors under PHP SafeMode.
+To install xwysiwyg, follow these steps as a work-around:
+
+-create the following directories BEFORE installing the module with boost
+files/xwysiwyg and
+files/xwysiwyg/editors
+make sure that there are correct permissions on these dirs (777 may be needed)
+
+-Do NOT use the Direct Install option inside xw-manager.
+-Download the editor of choice, untar the files locally and upload them to your server with an FTP program, using the instructions from the included readme file.
+-The target directory is files/xwysiwyg/editors/
+-Start the Install option inside xw-manager after all files are uploaded.
+
+-Do NOT use the Remove option inside xw-manager. You will be spammed with a lot of error messages. Instead:
+-Delete the files using your FTP program.
+-For the same reason, delete the editor files BEFORE using boost to uninstall the module.
+
+
+Have Fun
+Yves

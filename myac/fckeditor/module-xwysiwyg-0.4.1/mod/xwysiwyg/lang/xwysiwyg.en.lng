@@ -1,0 +1,76 @@
+en:|:xwysiwyg
+a:|:Access was denied due to lack of proper permissions.:|:Access was denied due to lack of proper permissions.
+a:|:Action:|:Action
+a:|:Add a new value:|:Add a new value
+a:|:Allow anonymous to use [var1]:|:Allow anonymous to use [var1]
+a:|:Allow users to use [var1]:|:Allow users to use [var1]
+a:|:Archive package:|:Archive package
+a:|:Available editor-packages:|:Available editor-packages
+a:|:Available editors:|:Available editors
+a:|:Back to administration:|:Back to administration
+a:|:Back:|:Back
+a:|:Browsers:|:Browsers
+a:|:Change:|:Change
+a:|:Copy:|:Copy
+a:|:Delete:|:Delete
+a:|:Depending on your server's security settings, direct install may not work.:|:Depending on your server's security settings, direct install may not work.
+a:|:Description:|:Description
+a:|:Direct install ([var1]kb):|:Direct install ([var1]kb)
+a:|:Direct install failed!:|:Direct install failed!
+a:|:Download:|:Download
+a:|:Edit your entry:|:Edit your entry
+a:|:Edit:|:Edit
+a:|:Editor file [var1].php not found:|:Editor file [var1].php not found
+a:|:Enable CSS @import:|:Enable CSS @import
+a:|:Enable Request Mode:|:Enable Request Mode
+a:|:Enable [var1] Plugin:|:Enable [var1] Plugin
+a:|:Enable translation of [var1]:|:Enable translation of [var1]
+a:|:Entry was successfully deleted from the database:|:Entry was successfully deleted from the database
+a:|:Error: No editor selected:|:Error: No editor selected
+a:|:Extract:|:Extract
+a:|:Home:|:Home
+a:|:ID:|:ID
+a:|:If everything fails, or if you want to modify the editor,:|:If everything fails, or if you want to modify the editor,
+a:|:Install:|:Install
+a:|:Location:|:Location
+a:|:Make your selections:|:Make your selections
+a:|:Manage:|:Manage
+a:|:No editor is installed or selected:|:No editor is installed or selected
+a:|:No editors found on hub:|:No editors found on hub
+a:|:No local editors found:|:No local editors found
+a:|:Path:|:Path
+a:|:Remove wysiwyg-editor:|:Remove wysiwyg-editor
+a:|:Remove:|:Remove
+a:|:Save:|:Save
+a:|:Saving was successful:|:Saving was successful
+a:|:Select:|:Select
+a:|:Set height of editor (eg.300):|:Set height of editor (eg.300)
+a:|:Set width of editor (eg.600):|:Set width of editor (eg.600)
+a:|:Settings saved successfully:|:Settings saved successfully
+a:|:Settings:|:Settings
+a:|:Test:|:Test
+a:|:Text Area Name:|:Text Area Name
+a:|:Textarea:|:Textarea
+a:|:Theme:|:Theme
+a:|:There is a problem in your settings:|:There is a problem in your settings
+a:|:There was a problem deleting the entry:|:There was a problem deleting the entry
+a:|:There was a problem saving to the database:|:There was a problem saving to the database
+a:|:There was a problem updating the database:|:There was a problem updating the database
+a:|:Try to create it manually (This may be a SafeMode problem):|:Try to create it manually (This may be a SafeMode problem)
+a:|:Uninstall:|:Uninstall
+a:|:Update was successful:|:Update was successful
+a:|:You are using [var1] now.:|:You are using [var1] now.
+a:|:Your browser IS supported:|:Your browser IS supported
+a:|:Your browser is NOT supported:|:Your browser is NOT supported
+a:|:[var1] does NOT exist or is NOT server writable!:|:[var1] does NOT exist or is NOT server writable!
+a:|:copied:|:copied
+a:|:download the file and copy it to /_phpws_/files/xwysiwyg/editors/ manually:|:download the file and copy it to /_phpws_/files/xwysiwyg/editors/ manually
+a:|:hub:|:hub
+a:|:installed:|:installed
+a:|:local:|:local
+a:|:no action given...:|:no action given...
+a:|:not copied:|:not copied
+a:|:not installed:|:not installed
+a:|:remote:|:remote
+a:|:xwysiwyg Manager:|:xwysiwyg Manager
+a:|:Update List:|:Update List

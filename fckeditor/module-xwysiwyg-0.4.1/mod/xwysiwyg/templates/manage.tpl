@@ -1,0 +1,1 @@
+{START_FORM}<span style="background-color: #0000FF;">{SUBMIT}</span>{END_FORM}

@@ -1,0 +1,44 @@
+Preface:
+The xwysiwyg module requires significant changes in the 'Core' files of phpWebSite. You should only install this module if you are experienced with PHP and phpWebSite. If you upgrade phpWebSite after installing the xwysiwyg module, the module may not function properly. In contrast to other htmlArea hacks that were published previously, you don't need to change installed modules. Only the file /js/wysiwyg.php is affected.
+
+Preparation:
+Backup
+- your database
+- the file /js/wysiwyg.php
+
+Install:
+1. Copy the xwysiwyg directory to the /mod directory of your phpWebSite installation.
+2. Replace /js/wysiwyg.php with the wysiwyg.php file from the xwysiwyg module.
+3. Install xwysiwyg as usual with Control Panel>Administration>Boost.
+4. After xwysiwyg is installed, you can import different editors into the module.
+5. To change editors, visit the xwysiwyg-manager in the Control Panel, and click the 'Manage' button.
+6. Import and select a listed editor.
+- You will find updated editor packages at http://www.firebird.ch/cms/ .
+- The readme files in the editor package provide help in preparing the editor.
+
+Uninstall:
+1. De-install the module with Boost. 
+The modified file /js/wysiwyg.php should not interfere with the normal operation of phpWebSite, but if you want to be on the safe side you should copy your backed-up file to the /js directory. (You did make a backup, right?).
+
+PHP-SafeMode:
+If your server has the PHP-Safe-Mode ON, this module will not run without some tweaks. Read SafeMode.txt for further instructions.
+
+Usage:
+Be sure that all HTML tags you want to use with xwysiwyg are allowed in /conf/textSettings.php. For example, <FONT> and/or <SPAN> are necessary for the editor to work with fonts and colors. To use the complete functionality of the editor, you should allow these tags:
+<font><span><strong><em><u><strike><sub><sup><p><li><ol><ul><hr><a><img><table><tbody><tr><td>
+
+You can change some settings of the xwysiwyg-module using the Control Panel. There, you can select the editor you prefer. You can specify if the tool is only available for registered users or if you want to allow anonymous users to use it too.  Additionally you can activate plugins in some editors. Some plugins may not work with this module, so some experiment may be needed. Some editors let you select a theme/skin.
+
+After installing the module, the phpWebSite interface looks the same as usual, except there is a new XW button in the wysiwyg panel above text fields and text areas. To activate xwysiwyg for a specified area, click this button. ATTENTION: all unsaved text will be lost!  Alternatively, you can select the Request Mode of xwysiwyg, and use the XW button to start the editor on request.
+
+I hope you have fun using this module!
+
+ykuendig <phpws@NOSPAM.firebird.ch>
+
+Special thanks to:
+Wendall Cada and Shaun Murry for the basic idea of the wysiwyg hack,
+Christan <webmaster@NOSPAM.phpws.de> for help testing the module, 
+Thomas <tluft@NOSPAM.web.de> and especially George Brackett for the translation to English, and 
+JYDAllstar for some impressive input.
+
+Version of 2005-11-06

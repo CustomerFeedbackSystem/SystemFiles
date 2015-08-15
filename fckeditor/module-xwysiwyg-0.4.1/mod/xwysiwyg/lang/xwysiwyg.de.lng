@@ -1,0 +1,76 @@
+de:|:xwysiwyg
+a:|:Access was denied due to lack of proper permissions.:|:Zugriff mangels Berechtigung verweigert.
+a:|:Action:|:Aktion
+a:|:Add a new value:|:Neuen Wert hinzuf&uuml;gen
+a:|:Allow anonymous to use [var1]:|:Anonyme Besuchern d&uuml;rfen [var1] nutzen
+a:|:Allow users to use [var1]:|:Angemeldete Benutzer d&uuml;rfen [var1] nutzen
+a:|:Archive package:|:Gepacktes Archiv
+a:|:Available editor-packages:|:Verf&uuml;gbare Editor-Pakete
+a:|:Available editors:|:Verf&uuml;gbare Editore
+a:|:Back to administration:|:Zur&uuml;ck zur Administration
+a:|:Back:|:Zur&uuml;ck
+a:|:Browsers:|:Browser
+a:|:Change:|:Wechseln
+a:|:Copy:|:Kopieren
+a:|:Delete:|:L&ouml;schen
+a:|:Depending on your server's security settings, direct install may not work.:|:Abh&auml;ngig von Ihren Server-Einstellungen, kann Direkt installieren ev. nicht klappen.
+a:|:Description:|:Beschreibung
+a:|:Direct install ([var1]kb):|:Direkt installieren ([var1]kb)
+a:|:Direct install failed!:|:Direkt installieren ist fehlgeschlagen
+a:|:Download:|:Download
+a:|:Edit your entry:|:Eintrag bearbeiten
+a:|:Edit:|:&Auml;ndern
+a:|:Editor-file [var1].php not found:|:Die Datei [var1].php wurde nicht gefunden
+a:|:Enable CSS @import:|:CSS @import einschalten
+a:|:Enable Request Mode:|:Request-Mode aktivieren
+a:|:Enable [var1] Plugin:|:[var1]-Plugin aktivieren
+a:|:Enable translation of [var1]:|:Erlaube die &Uuml;bersetzung von [var1]
+a:|:Entry was successfully deleted from the database:|:Eintrag wurde erfolgreich aus der Datenbank gel&ouml;scht
+a:|:Error: No editor selected:|:Fehler: Kein Editor ausgew&auml;hlt
+a:|:Extract:|:Entpacken
+a:|:Home:|:Home
+a:|:ID:|:ID
+a:|:If everything fails, or if you want to modify the editor,:|:Wenn auch das nicht geht, oder wenn Sie anpassungen am Editor machen wollen,
+a:|:Install:|:Installieren
+a:|:Location:|:Speicherort
+a:|:Make your selections:|:Treffen Sie eine Auswahl
+a:|:Manage:|:Verwalten
+a:|:No editor is installed or selected:|:Es ist kein Editor installiert oder ausgew&auml;hlt
+a:|:No editors found on hub:|:Keine Editoren im Hub gefunden
+a:|:No local editors found:|:Keine lokalen Editoren gefunden
+a:|:Path:|:Pfad
+a:|:Remove wysiwyg-editor:|:Wysiwyg-editor entfernen
+a:|:Remove:|:Entfernen
+a:|:Save:|:Speichern
+a:|:Saving was successful:|:Speichern war erfolgreich
+a:|:Select:|:Ausw&auml;hlen
+a:|:Set height of editor (eg.300):|:H&ouml;he der Textarea angeben (zB.300)
+a:|:Set width of editor (eg.600):|:Breite der Textarea angeben (zB.600)
+a:|:Settings saved successfully:|:Einstellungen erfolgreich gespeichert
+a:|:Settings:|:Einstellungen
+a:|:Test:|:Testen
+a:|:Text Area Name:|:Text Area Name
+a:|:Textarea:|:Textarea
+a:|:Theme:|:Thema
+a:|:There is a problem in your settings:|:Es gibt ein Problem mit den Einstellungen
+a:|:There was a problem deleting the entry:|:Es gab ein Problem beim l&ouml;schen dieses Eintrags
+a:|:There was a problem saving to the database:|:Es gab Probleme beim speichern in die Datenbank
+a:|:There was a problem updating the database:|:Es gab Probleme beim aktualisieren der Datenbank
+a:|:Try to create it manually (This may be a SafeMode problem):|:Versuche Sie den Ordner manuell zu erstellen (Das kann ein SafeMode-Problem sein)
+a:|:Uninstall:|:Deinstallieren
+a:|:Update was successful:|:Aktualisieren war erfolgreich
+a:|:You are using [var1] now.:|:Sie benutzen jetzt [var1]
+a:|:Your browser IS supported:|:Ihr Browser IST unterst&uuml;tzt
+a:|:Your browser is NOT supported:|:Ihr Browser ist NICHT unterst&uuml;tzt
+a:|:[var1] does NOT exist or is NOT server writable!:|:[var1] ist NICHT vorhanden oder NICHT beschreibbar!
+a:|:copied:|:kopiert
+a:|:download the file and copy it to /_phpws_/files/xwysiwyg/editors/ manually:|:Klicken Sie Download und kopieren Sie die Datei(en) nach /_phpws_/files/xwysiwyg/editors/
+a:|:hub:|:Hub
+a:|:installed:|:installiert
+a:|:local:|:Lokal
+a:|:no action given...:|:es wurde keine keine Aktion angegeben...
+a:|:not copied:|:Nicht kopiert
+a:|:not installed:|:nicht installiert
+a:|:remote:|:Online
+a:|:xwysiwyg Manager:|:xwysiwyg Manager
+a:|:Update List:|:Liste aktualisieren

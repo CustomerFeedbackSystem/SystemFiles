@@ -1,0 +1,56 @@
+Introduction to the Xwysiwyg Module
+===============================
+
+The xwysiwyg-module lets you edit text fields and text areas in phpwebsite using different wysiwyg editors.
+
+FEATURES
+========
+- Support for four wysiwyg editors (HtmlArea, FCKeditor, Xinha, TinyMCE)
+- Only one phpWebSite core-file (wysiwyg.php) requires changes
+- Easy install
+- Compatible with phpWebSite for versions 0.9.3-4 and later.
+- Should work with IE_5.5+ , Mozilla_1.4+ , Firefox_0.10.0+ , Firefox_1.0+
+
+--------------------------------------------------------------------------------
+Changes:
+========================
+Changes in version 0.4.1
+========================
+- Online update is now manually triggered
+
+========================
+Changes in version 0.4.0
+========================
+- New module structure
+- Editor's php code now separated from general module code
+- Path to editor is now configurable
+- Support for new editor Xinha
+- Support for new editor TinyMCE
+- Much more
+
+========================
+Changes in version 0.3.1
+========================
+- Fixed Bug: FCK-Skin support
+- Fixed Bug: Remove-Button permissions
+
+========================
+Changes in version 0.3.0
+========================
+- Option added to enable/disable CSS-import
+- Remove link for wysiwyg editor added
+- Custom HA-Toolbar related to textSettings.php
+- Width and Height Settings for FCKeditor
+- Updated FCKeditor to v2 RC2
+
+========================
+Changes in version 0.2.0
+========================
+- Updated FCKeditor to v2 RC1
+- wysiwyg enabled for Firefox 1.0+
+
+========================
+First release 0.1.0
+========================
+- Initial Release
+

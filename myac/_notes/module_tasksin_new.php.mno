@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_list" value="name:idwftasks;datatype:int,name:tktin_idtktin;datatype:int,name:tasksubject;datatype:string,name:timeinactual;datatype:datetime,name:timedeadline;datatype:datetime,name:wftskstatustypes_idwftskstatustypes;datatype:int,name:timeactiontaken;datatype:datetime,name:sender_role;datatype:string,name:sender_idusrrole;datatype:int,name:time_to_deadline;datatype:int,name:utitle;datatype:string,name:lname;datatype:string,name:refnumber;datatype:string,name:senderphone;datatype:string" />
+</info>

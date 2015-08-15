@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_myteam" value="name:idjoblvl;datatype:int,name:joblvl_lbl;datatype:string,name:idusrrole;datatype:int" />
+</info>

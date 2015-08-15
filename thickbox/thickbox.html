@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hacking jQuery Thickbox </title>
+<style type="text/css">
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {color: #0099CC;}
+a:visited {color: #0099CC;}
+a:hover {color: #000;}
+a:active {color: #0099CC;}
+a:focus{color: #0099CC;}
+</style>
+<script type="text/javascript" src="jquery-1.2.3.js"></script>
+<script type="text/javascript" src="thickbox.js"></script>
+<script type="text/javascript">
+function show_code(blnFromChild)
+{
+	if(blnFromChild==true)
+		alert("\'show_code\' - a parent window function is just called from Thickbox window..!");
+	$("#thick-code").show();
+}
+</script>
+<link rel="stylesheet" href="thickbox.css" />
+</head>
+<body>
+<br />
+Example of how to hack jQuery Thickbox..<br />
+This example will demonstrate some new ways of opening, closing and reloading Thickbox.
+<br />
+<a href="#" onclick="tb_open_new('window_one.html?TB_iframe=true&height=400&width=400&modal=true')">Open Thickbox without href attribute</a>
+<a href="#" onclick="show_code();">View Code</a>
+<code>
+<div id="thick-code" style="display:none">
+<pre>
+&lt;!-- Code for Main Window link --&gt;
+&lt;a href="#" onclick="tb_open_new('window_one.html?TB_iframe=true&height=400&width=400&modal=true')"&gt;Open Thickbox without href attribute&lt;/a&gt;
+
+&lt;!-- Code of Window One buttons--&gt;
+&lt;input type="button" value="Close & Open - Window Two" onclick="self.parent.tb_open_new('window_two.html?TB_iframe=true&height=400&width=500&modal=true')" /&gt;<br />&lt;input type="button" value="Close" onclick="self.parent.tb_remove();" /&gt;
+
+&lt;!-- Code of Window Two buttons --&gt;
+&lt;input type="button" value="Close & Open - Window One" onclick="self.parent.tb_open_new('window_one.html?TB_iframe=true&height=400&width=400&modal=true')" /&gt;<br />&lt;input type="button" value="Close & Call Parent/Main Window function" onclick="self.parent.tb_remove('show_code();');" /&gt;
+</pre>
+</div>
+<code>
+<div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7679595773658583";
+/* 468x60, created 2/15/08 */
+google_ad_slot = "9269734725";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3104676-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

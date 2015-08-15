@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_formitems" value="name:idwfprocassets;datatype:int,name:procdtype;datatype:string,name:assetname;datatype:string,name:wfprocassetsgrouplbl;datatype:string" />
+</info>

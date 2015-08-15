@@ -1,0 +1,1 @@
+{START_FORM}{EDITOR}<span style="background-color: #008000;">{SUBMIT}</span>{END_FORM}

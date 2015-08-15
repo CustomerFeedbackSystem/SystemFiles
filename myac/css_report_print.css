@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.text_body_large { padding:5px 0px 5px 0px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:14px}
+.text_body_vlarge { padding:5px 0px 5px 0px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:20px}
+.text_body_mod { padding:5px 0px 5px 0px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+.text_body_small { padding:5px 0px 5px 0px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:10px}
+.text_body_verysmall { padding:5px 0px 5px 0px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:8px}
+.text_data { padding:5px 0px 5px 0px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; background-color:#EAEAEA; color:#333333}
+.text_timestamp { padding:15px 0px 15px 0px; font-weight:bold; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px}
+.hidden { display:none; }
+.tbl_h { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#F8F8F8; background-color:#999999; font-weight:bold;text-align:left; padding:5px 10px}
+.tbl_h2 { font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#555555; background-color:#999999; font-weight:bold;text-align:left; padding:5px 10px}
+.tbl_data { font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#333333;border-bottom:1px solid #CCCCCC; padding:5px 10px 5px 10px; line-height:150%;text-align:left;border-right:1px #CCCCCC solid;  font-weight:bold}
+.tbl_data2 { background-color:#EAEAEA; font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#333333;border-bottom:1px solid #CCCCCC; padding:5px 10px 5px 10px; line-height:150%;text-align:left;border-right:1px #CCCCCC solid;  font-weight:bold}
+.tblbl { font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#666666; }
+.hline { border-bottom:1px #CCCCCC solid; } 
+.brline {  border-bottom:1px #CCCCCC solid; border-right:1px #CCCCCC solid; } 
+.msg_warning { background-color:#FFFFCC; color:#CC0000; padding:5px 10px 5px 10px; font-size:12px; line-height:150%; font-weight:bold;; margin:10px;text-align:left}
+.msg_success {background-color:#00CC00; color:#FFFFFF;padding:5px 10px 5px 5px;font-size:12px;line-height:150%; font-weight:bold;; margin:10px;text-align:left}
+.border { border:1px solid #666666; }
+.border_top { border-top:1px solid #666666;padding:2px }
+.border_top_thick { border-top:3px solid #666666;padding:2px }
+.border_top_right { border-top:1px solid #666666;  border-right:1px solid #666666;padding:2px }
+.border_btm_right { border-bottom:1px solid #666666;  border-right:1px solid #666666; padding:2px }
+.rpt_period { border-top:2px solid #F8F8F8;border-bottom:2px solid #F8F8F8; font-size:14px; padding:5px 0px}

@@ -1,0 +1,17 @@
+Directory for editor- config and maker files in /files/xwysiwyg/editors/
+------------------------------------------------------------------------
+Install the editor on Your webserver and edit the path in the related _name_.conf 
+to point to your installation.
+Move/Copy the editors _name_.conf and _name_.php files in this directory.
+Activate the editor in xwysiwyg with the xwysiwyg-manager in PhpWebSites controlpanel.
+
+
+Verzeichnis fuer die Konfig- und Starter-Dateien in /files/xwysiwyg/editors/
+----------------------------------------------------------------------------
+Installieren Sie den Editor auf Ihrem Webserver. Aendern Sie den Pfad zu Ihrer Installtion 
+in der _name_.conf Datei.
+Verschieben/kopieren Sie die _name_.conf und _name_.php Dateien in diesen Ordner.
+Aktivieren Sie den Editor fuer xwysiwyg im xwysiwyg-manager innerhalb des PhpWebSite-Kontrolpanels.
+
+
+yk 25.09.2005
